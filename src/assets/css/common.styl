@@ -1,0 +1,63 @@
+$fontSize=0.5rem;
+$fontColor=#b1aeae;
+flexCenter(){
+    display: flex;
+    justify-content: center;
+}
+inputDisplay(){
+    width:100%;
+    border:none;
+    color:$fontColor;
+    font-size:0.4rem;
+    outline:none;
+    font-family:'黑体';
+    }
+.router-link-active {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.felxs{
+    display:flex;
+    justify-content:flex-start; 
+    font-size:0.4rem;
+    }
+imgs(){
+    margin:0 0.2rem 0.2rem 0;
+}
+.post{
+    flexCenter();
+    margin:1rem 0;
+    }
+.post p{
+        margin: 0.2rem 0.2rem;
+        font-size:$fontSize;
+        line-height: 0.733333rem;
+    }
+.inputdata{
+    inputDisplay();
+    imgs();
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:1px solid $fontColor;
+    margin-top:0.6rem;
+    }
+.inputImg{
+    imgs();
+    color:#0079f8;
+    }
+.inputText,.inputPassword{
+    inputDisplay();
+    }
+.inputPassword2{
+    width:60%;
+    margin-right .9rem;
+    }
+.font1{
+    display:flex;
+    justify-content:flex-end;
+    color:#0079f8;
+    font-size:0.4rem;
+    }
